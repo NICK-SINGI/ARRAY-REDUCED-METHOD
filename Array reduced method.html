@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JS Arrays</h2>
+
+<p>Array Reduced Method</p>
+
+<p id="DHT"></p>
+
+<script>
+const numbers = [1000, 150, 250];
+document.getElementById("DHT").innerHTML = numbers.reduce(myFunc);
+
+function myFunc(total, num) {
+  return total - num;
+}
+</script>
+
+</body>
+</html>
